@@ -1,0 +1,43 @@
+{
+  "name": "@ph-itdev/customs-hs-code",
+  "version": "0.2026.0705",
+  "description": "HS code lookup, tariff calculation, and customs duty estimation for international trade and cross-border logistics automation.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "commonjs",
+  "bin": {
+    "customs-hs-code": "bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "bin/",
+    "example/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "lint": "echo 'lint ok'",
+    "playground": "node bin/cli.js playground"
+  },
+  "keywords": [
+    "logistics",
+    "automation",
+    "shipping",
+    "supply-chain",
+    "customs"
+  ],
+  "author": "@ph-itdev",
+  "license": "MIT \u00a9 Nilo Besingga",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilskie06/customs-hs-code.git"
+  },
+  "homepage": "https://github.com/nilskie06/customs-hs-code#readme",
+  "bugs": {
+    "url": "https://github.com/nilskie06/customs-hs-code/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
