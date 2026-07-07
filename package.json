@@ -1,6 +1,6 @@
 {
   "name": "@ph-itdev/customs-hs-code",
-  "version": "0.2026.0705",
+  "version": "0.2026.706",
   "description": "HS code lookup, tariff calculation, and customs duty estimation for international trade and cross-border logistics automation.",
   "main": "index.js",
   "types": "index.d.ts",
